@@ -1,0 +1,89 @@
+.outer_container{
+  border:1px solid blue;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+}
+.header{
+  border: 1px solid teal;
+  background: teal;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+  text-shadow: 0 0 1px #fff;
+}
+.tabS{
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  padding: 0;
+  border: 1px solid tan;
+  margin: 0;
+}
+.tabS li{
+  border: 1px solid;
+  flex: 1;
+  padding: 10px;
+
+}
+.container{
+  width: 500px;
+  border: 1px solid;
+  margin: 50px auto;
+  height: 400px;  
+  text-align: center;
+}
+.heading{
+  /* border: 1px solid teal; */
+  color: teal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 2px;
+  text-align: left;
+  padding-left: 20px;
+}
+.ul{
+  list-style-type: none;
+  display: flex;
+  /* border: 1px solid; */
+  justify-content: center;
+}
+.leftli{
+  width: 30%;
+    font-size: 20px;
+    color: teal;
+    padding: 5px;
+}
+.rightli{
+  width: 70%;
+}
+input{
+  width: 70%;
+  border: 1px solid teal;
+  border-radius: 3px;
+  height: 30px;
+  font-size: 20px;
+  color:teal;
+  padding-left: 10px;
+}
+::-webkit-input-placeholder{
+  font-size: 15px;
+  /* padding-left: 10px; */
+}
+button{
+    margin-top:10px; 
+    border: 1px solid teal;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+    background: teal;
+  
+}
+.errDiv{
+  margin: 0px 0px 20px 0px;
+    color: red;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
